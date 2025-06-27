@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Plano de Obras 2453 – Cemitério do Bonfim</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Open Graph para mini-preview em apps/mensagens -->
+  <meta property="og:title" content="Obras Públicas – Cemitério do Bonfim">
+  <meta property="og:image" content="imagem1.png"> <!-- mesma pasta -->
+  <meta property="og:description" content="Reforma e restauração do Cemitério do Bonfim (Situação: em execução)">
+  <style>
+    body{font-family:sans-serif;margin:0;padding:1rem;background:#f5f5f5;color:#222}
+    .card{max-width:600px;margin:auto;background:#fff;padding:1.5rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+    img{width:100%;border-radius:4px;margin:1rem 0}
+    table{width:100%;border-collapse:collapse;font-size:0.95rem}
+    td{padding:.35rem .2rem;border-bottom:1px solid #e0e0e0}
+    td:first-child{font-weight:600;width:45%}
+    a.btn{display:inline-block;margin-top:1rem;padding:.6rem 1.2rem;background:#005fbf;color:#fff;text-decoration:none;border-radius:4px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Plano de Obras 2453</h2>
+    <h3>Cemitério do Bonfim – Reforma e Restauração</h3>
+
+    <!-- imagem estará na mesma pasta que o HTML -->
+    <img src="imagem1.png" alt="Foto da obra">
+
+    <table>
+      <tr><td>Regional</td><td>Noroeste</td></tr>
+      <tr><td>Temática</td><td>Outros</td></tr>
+      <tr><td>Situação</td><td>Em Execução de Obra</td></tr>
+      <tr><td>Empresa Responsável</td><td>SUDECAP</td></tr>
+      <tr><td>Grupo</td><td>Ativo</td></tr>
+      <tr><td>Planejamento de Obra</td><td>Sim</td></tr>
+    </table>
+
+    <a class="btn" href="https://bhmap.pbh.gov.br/v2/mapa/idebhgeo#zoom=6&lat=7797731.33211&lon=609890.02167&baselayer=base&layers=obras_publicas" target="_blank">
+      Ver no BHMap
+    </a>
+  </div>
+</body>
+</html>
